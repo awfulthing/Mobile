@@ -40,9 +40,15 @@
 
     <Button
         android:id="@+id/buttonSearch"
-        android:layout_width="45dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="160dp"
+        android:layout_width="33dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="168dp"
+        android:padding="0dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:rotationX="0"
         android:textAlignment="center"
         app:icon="@android:drawable/ic_menu_search"
         app:layout_constraintStart_toStartOf="@+id/textInputEditText"

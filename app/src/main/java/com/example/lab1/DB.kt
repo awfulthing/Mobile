@@ -29,8 +29,8 @@ class DBHelper(context: Context?) :
                 $KEY_ID INTEGER PRIMARY KEY AUTOINCREMENT,
                 $KEY_NAME TEXT NOT NULL,
                 $KEY_SECONDNAME TEXT NOT NULL,
-                $KEY_PHONE TEXT NOT NULL,
-                $KEY_BIRTHDAY DATE NOT NULL
+                $KEY_BIRTHDAY DATE NOT NULL,
+                $KEY_PHONE TEXT NOT NULL
             )""")
     }
 
